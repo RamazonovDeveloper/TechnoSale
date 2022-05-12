@@ -1,0 +1,93 @@
+.reg{
+    height: 100vh;
+    background: url(../../assets/img/loginBack.png);
+    background-size: cover;
+    display: flex;
+    
+
+    &__form{
+        box-sizing: border-box;
+        padding: 13px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 100%;
+        background: #FFFFFF;
+        border: 0.5px solid #2B4972;
+        border-radius: 40px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &__top{
+            display: flex;
+            justify-content: center;
+
+            & > img{
+                width: 120px;
+            }
+        }
+
+        & > h3{
+            font-weight: 400;
+            font-size: 64px;
+            line-height: 85px;
+            letter-spacing: 0.15em;
+            text-align: center;
+            color: #2B4972;
+            
+            text-shadow: 2px 6px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        &__inp{
+            flex-grow: 1;
+            text-align: center;
+            padding: 0 100px;
+
+            & > div{
+                display: flex;
+                flex-direction: column;
+                
+                & > input{
+                    margin-bottom: 20px;
+                    padding: 20px 30px;
+                    border: 2px solid #2B4972;
+                    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                    border-radius: 20px;
+
+                    &::placeholder{
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 24px;
+                        letter-spacing: 0.15em;
+                        
+                        color: #2B4972;
+                    }
+
+                    // &:nth-child(1){
+                    //     margin-bottom: 58px;
+                    // }
+                }
+            }
+
+            
+
+            
+
+
+        }
+
+            &__pr{
+                padding: 0 100px;
+
+                // margin-top: 100px;
+                // margin-bottom: 20px;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 21px;
+                
+                color: #2B4972;
+            }
+    }
+}
