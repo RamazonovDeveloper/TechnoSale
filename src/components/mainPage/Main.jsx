@@ -2,7 +2,7 @@ import React from 'react';
 import './Main.scss'
 import mode from '../../assets/icon/tema.svg'
 import lan from '../../assets/icon/lan.svg'
-import logo from '../../assets/img/mainLogoBig.png'
+import logo from '../../assets/img/logooo.png'
 import { useNavigate } from 'react-router-dom';
 
 const Main = () => {
@@ -28,9 +28,9 @@ const Main = () => {
                     <p>It then retains <span>3%</span> of the product sold.</p>
                     <p>The main purpose is to advertise the store's products.</p>
                     <p>This site will also have a <span>bot</span> + <span>database</span>.</p>
-                    <button>Get started</button>
+                    <button onClick={() => {navigate('/main')}}>Get started</button>
                 </div>
-                <img className="main__text__left" src={logo} alt="" />
+                <img className="main__text__right" src={logo} alt="" />
             </div>
 
             <div className="main__bottom">

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Login.scss'
-import logo from '../../assets/img/logo.png'
+import logo from '../../assets/img/lastLogo.png'
 import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
@@ -10,7 +10,7 @@ const Login = () => {
             <div className='login__form'>
                 <div className='login__form__top'>
                     <img src={logo} alt="" />
-                    <button onClick={()=>{navigate('/registration')}}>Create accaunt</button>
+                    <button classNamex='myBtn' onClick={()=>{navigate('/registration')}}>Create accaunt</button>
                 </div>
                 <h3>Log In</h3>
                 <div className='login__form__inp'>
